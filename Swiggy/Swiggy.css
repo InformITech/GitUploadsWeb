@@ -1,0 +1,346 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+}
+.Section1
+{
+    width: 100%;
+    height: 540px;
+}
+.Section1Lf
+{
+    width: 57%;
+    height: 540px;
+    float: left;
+    background: white;
+}
+.Section1Logo
+{
+    width: 193px;
+    height: 54px;
+    float: left;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+.Login
+{
+    width: 50%;
+    float: left;
+    height: 40px;
+    padding: auto;
+    background: transparent;
+    border: 0;
+    font-family: arial,Helvetica Neue,sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: -.5px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.Login:hover
+{
+    color: #fc8019;
+}
+.Sign
+{
+    width: 50%;
+    float: left;
+    background: black;
+    color: white;
+    height: 40px;
+    justify-content: center;
+    text-align: center;
+    font-family: arial,Helvetica Neue,sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: -.5px;
+    font-weight: 600;
+    transition: 0.8s ease-in-out;
+    cursor: pointer;
+}
+.Sign:hover
+{
+    background: #fc8019;
+    border: 1px solid #fc8019;
+}
+.Scroll
+{
+    width: 620px;
+    height: 48px;
+    float: left;
+    margin-top: 70px;
+    margin-left: 70px;
+    bottom: 0;
+    transition:  3s fade;
+}
+#switch
+{
+    float: left;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: -.45px;
+    word-spacing: 0;
+    margin-top: -2px;
+}
+.TextSpace
+{
+    width: 620px;
+    float: left;
+    height: 60px;
+    margin-top: 40px;
+    margin-left:  70px;
+   font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    
+}
+.TextArea
+{
+    width: 433px; height: 55px; padding-left: 15px;
+    outline: none; 
+    font-size: 18px;
+    font-weight: 500;
+    overflow: hidden;
+    float: left;
+}
+.TextArea:focus
+{
+    border: 1px solid #fc8019;
+    border-bottom: 1px solid #fc8019;
+
+}
+.FindFood
+{
+    width: 165px;
+    height: 60px;
+    border: 1px solid  #fc8019;
+    background: #fc8019;
+    color: white;
+    font-size: 16px;
+    letter-spacing: -0.45px;
+    font-weight: 700;
+    float: left;
+    transition: 0.8s ease-in-out;
+    cursor: pointer;
+}
+.FindFood:hover
+{
+    border: 1px solid #000;
+    background: #000;
+}
+
+.Section1Pgf2
+{
+    float: left;
+    margin-left: 70px;
+    margin-top: 20px;
+    width: 620px;
+    height: auto;
+}
+.Locate
+{
+    float: left;
+    width: auto ;
+    margin-left: -100px;
+    margin-top: 10px;
+    border: 0;
+    background: transparent;
+    color: inherit;
+    height: 40px ;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.Locate:hover
+{
+    background: #e9e9eb;
+    color: #535665;
+    font-weight: 400;
+}
+.ALinkSection1
+{
+    float: left;
+    color: #686b78;
+    line-height: 1;
+    letter-spacing: -.3px;
+    font-weight: 600;
+    font-size: 15px;
+}
+.Section1Rf
+{
+    width: 43%;
+    height: 540px;
+    float: left;
+}
+.Section2
+{
+    width: 100%;
+    height: auto;
+}
+.Section3
+{
+    width: 100%;
+    height: 570px;
+    margin: 0;
+    overflow: hidden;
+    float: left;
+}
+.Section3Lf
+{
+    width: 40%;
+    height: 570px;
+    float: left;
+}
+.Section3Text1
+{
+    width: 300px;
+    height: 80px;
+    float: left;
+    margin-left: 75px;
+    margin-top: 145px;
+    font-weight: 300;
+    color: #282c3f;
+    letter-spacing: 0;
+}
+.Section3Pgf
+{
+    width: 400px;
+    height: 128px;
+    float: left;
+    margin-left: 75px;
+    color: #7e808c;
+}
+.Section3LfImages
+{
+    width: 400px;
+    height: 58px;
+    float: left;
+    margin-left: 75px;
+    cursor: pointer;
+}
+.Section3Rf
+{
+    width: 60%;
+    height: 570px;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+.HeadingFtr1
+{
+    color: gray;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    letter-spacing: 0;
+    width: 150px;
+    height: 48px;
+}
+
+.links:hover{
+    font-size: 1.1rem;
+    width: auto;
+}
+
+.Components
+{
+    float: left;
+    font-size: 17px;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    font-weight: 300;
+    width: auto;
+    height: 38px;
+}
+
+.HeadingFtr2
+{
+    color: gray;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    float: left;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    letter-spacing: 0;
+    width: 150px;
+    height: 48px;
+}
+.FtrImages
+{
+    width: 200px;
+    height: 65px;
+    float: right;
+}
+.Imgftr1
+{
+    width: 200px; 
+    height: 65px;
+     margin-right: 3px;
+     border: 2px solid white;
+     border-radius: 10px;
+     cursor: pointer;
+}
+.Imgftr1:hover
+{
+    transition: transform 0.3s ease;
+    transform: scale(105%);
+}
+.Partition
+{
+    width: 1210px;
+    margin-top: 0px;
+    margin-left: 76px; 
+    float: left;
+    height: 1px;
+    background: #4d4d4d;
+}
+.Bcq3d
+{
+    width: 1210px;
+    height: 53px;
+    padding-top: 32px;
+    padding-bottom: 40px;
+    margin-left: 76px;
+    float: left;
+}
+.End
+{
+    width: 1210px;
+    height: 50px;
+    float: left;
+    margin-left: 76px;
+    padding-top: 29px;
+
+}
+.BwLogo
+{
+    width: 142px;
+    height: 45px;
+    float: left;
+}
+.LogoRight
+{
+    font-size: 32px;
+     float: right; 
+     color: white
+}
+.LogoRight:hover
+{
+    transform: scale(110%);
+}
+.Logos
+{
+    font-size: 32px;
+    float: right; 
+    color: white;
+    margin-right:25px;
+}
+.Logos:hover
+{
+    transform: scale(110%);
+}
+
+
+
+                                                                                                     /* Completed */
